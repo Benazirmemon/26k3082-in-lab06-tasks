@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int  i, temperature, count=0, total=0;
+    for (i=1;i<=7;i++){
+    printf("enter the temperature of each day");
+    scanf("%d",&temperature);
+    total =total+temperature;
+    if(temperature >100){
+        count++;
+    }
+}
+printf("total temperatureis %d",total);
+printf("no of temperature greater than 100 %d",count);
+}
